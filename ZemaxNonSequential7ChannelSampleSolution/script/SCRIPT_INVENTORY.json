@@ -1,0 +1,248 @@
+{
+  "destination": "E:\\L\\大四\\Fiverr\\05 7pathTelescope02\\script",
+  "python_files": 11,
+  "copied_files": 48,
+  "verified_by": "SHA256 source and destination equality",
+  "files": [
+    {
+      "path": "comparison_figures/Direct_Overlay_Clean.png",
+      "bytes": 1258999,
+      "sha256": "6fe22bb4503aba633efe82f7d60751ed75acdc4329b56a9eb9d90ec450a51c0f"
+    },
+    {
+      "path": "comparison_figures/Direct_Overlay_Schematic.png",
+      "bytes": 1303940,
+      "sha256": "ce11832d0ab60aabe4850f613c25fdc8098c890d08bc6aa4ae15ff0bf4f7f9b4"
+    },
+    {
+      "path": "comparison_figures/Direct_Overlay_vs_Registered_Mosaic.png",
+      "bytes": 1496292,
+      "sha256": "5489676accb2c7b0b9694ae34144cb4b148f927ebf662d4e45bb3b57015f2006"
+    },
+    {
+      "path": "comparison_figures/local_details/Local_Regions_1_and_2_Alignment_Comparison.png",
+      "bytes": 65069,
+      "sha256": "c70ba82481692a58d736361a8ad9940cfd533833bd6d7efcb7923e867b00e490"
+    },
+    {
+      "path": "comparison_figures/overlay_notes.json",
+      "bytes": 1285,
+      "sha256": "8b7aa0d348eb49cc814eea8f89cdf96c2862315c1a763978612fb6fe857f9c6d"
+    },
+    {
+      "path": "figure_tools/finalize_comparison.py",
+      "bytes": 1666,
+      "sha256": "26c131a40bb4d60079adab14a521f4b32cea19cc57db527036623a81fbb2e7db"
+    },
+    {
+      "path": "figure_tools/inspect_local_details.py",
+      "bytes": 4712,
+      "sha256": "bcd575e18e186cc7a90f1ebacfdcb6f833fa64044e50e9686720442e7eeffd2b"
+    },
+    {
+      "path": "figure_tools/make_direct_overlay.py",
+      "bytes": 3846,
+      "sha256": "6a001c5472d6b340aace837fd67a18398deba7044d725d7aea1fd62bd417070b"
+    },
+    {
+      "path": "figure_tools/make_local_comparison.py",
+      "bytes": 6092,
+      "sha256": "f64a4c9cafe225f5b51fc4153e6c5fa0902f149ec7d8727685ab08c3ef2d757d"
+    },
+    {
+      "path": "generate_star_rays.py",
+      "bytes": 10313,
+      "sha256": "0463492c89b5c3224d5467f4704beb6c4a6b86629e0d68401b48283e27f2d0af"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4044,
+      "sha256": "a769226654fae3e21bb0ed2a6c77bb0bcc4228c8661be9af15e785f054653c3b"
+    },
+    {
+      "path": "register_zemax.py",
+      "bytes": 4944,
+      "sha256": "97e61aea30ac8737e722f4ac4303af45aa8380d2c4f6e2c0eed7372dc8ca56e9"
+    },
+    {
+      "path": "registered_output/coverage.png",
+      "bytes": 29625,
+      "sha256": "576c9c772eb2c0161301ebc20090406f43149c4ef82d4332a23a955c80397fe9"
+    },
+    {
+      "path": "registered_output/coverage_count.npy",
+      "bytes": 2920238,
+      "sha256": "c04fa32c9b11101725b103d15969519403b07bc54ecb540ee9a60ce36cb6658a"
+    },
+    {
+      "path": "registered_output/crop_detection.jpg",
+      "bytes": 101455,
+      "sha256": "2f155b0caa702c8ad1f3f053aa5f572112843fefab9fe7ed20072271a6acc2b4"
+    },
+    {
+      "path": "registered_output/crops/Channel_A.png",
+      "bytes": 85394,
+      "sha256": "fe10620614a68aca1bdfce2cd33a7639988325da31d2b20e075375f57e315f1c"
+    },
+    {
+      "path": "registered_output/crops/Channel_B.png",
+      "bytes": 77080,
+      "sha256": "1b1f63d5f4dcbcea1d19f8674729f71c722b7c371d807d1f8fceaa9da0627710"
+    },
+    {
+      "path": "registered_output/crops/Channel_C.png",
+      "bytes": 68177,
+      "sha256": "f663d568425439620cf0e7fb55253829ece4e1b3229d1594629c368814ea29e4"
+    },
+    {
+      "path": "registered_output/crops/Channel_D.png",
+      "bytes": 68536,
+      "sha256": "6e19e79cfec953e9b4c6ec1eefcd1d84c7740d5e8ef67893966f79a6b027448f"
+    },
+    {
+      "path": "registered_output/crops/Channel_E.png",
+      "bytes": 74951,
+      "sha256": "4ecd0402b8689e8b925ed89c3e532eadaef7707e72758adff87b0bb04e035aac"
+    },
+    {
+      "path": "registered_output/crops/Channel_F.png",
+      "bytes": 74416,
+      "sha256": "d86fa76f881e75db8f332ce37edd8fe258ebe86cd12af461590b4d7dc74e1ef4"
+    },
+    {
+      "path": "registered_output/crops/Channel_G.png",
+      "bytes": 87412,
+      "sha256": "eb72ceb4ae9509ab43050ad1f509f65f95715e7a84aff9f4c6a32c6fd7f7fa40"
+    },
+    {
+      "path": "registered_output/manifest.json",
+      "bytes": 12289,
+      "sha256": "5daff17aa93ea95c4f874e290c76813973a9a8b178d868c0ebad655ac630d1ed"
+    },
+    {
+      "path": "registered_output/mosaic.png",
+      "bytes": 1329550,
+      "sha256": "3d3d86acb4d5024e0914bace348caabd6e0956e60f84d7c2dec19849b91ca644"
+    },
+    {
+      "path": "registered_output/mosaic_rgba.png",
+      "bytes": 1470803,
+      "sha256": "d4659ea0b15b8291f05693635b4d3cec91146395f806235fc87a0465142d8947"
+    },
+    {
+      "path": "registered_output/overlap_checks/overlap_AB.png",
+      "bytes": 112399,
+      "sha256": "099009d694a6c0e865305d961694eff3af219891e65d709fc37166de210004aa"
+    },
+    {
+      "path": "registered_output/overlap_checks/overlap_AF.png",
+      "bytes": 106808,
+      "sha256": "0c8d249dbe6e55b19ff404e14e38eeb5049dea5ad8199138584ef237e4118d3b"
+    },
+    {
+      "path": "registered_output/overlap_checks/overlap_AG.png",
+      "bytes": 88607,
+      "sha256": "97a317f2b47dea13ce91a4734d61853264660b996ea7ca39ec3ad4a5d0fd3ba0"
+    },
+    {
+      "path": "registered_output/overlap_checks/overlap_BC.png",
+      "bytes": 69032,
+      "sha256": "dbdb0ec92113a497f95b656001a1bd79b992d5e3ce795c73d254bc5e32ee353a"
+    },
+    {
+      "path": "registered_output/overlap_checks/overlap_BG.png",
+      "bytes": 102347,
+      "sha256": "eb567a7e0cbe8ecd38ef4bc99f60ccb253c7c29f2f6917c4fe4e250b5e65bb44"
+    },
+    {
+      "path": "registered_output/overlap_checks/overlap_CD.png",
+      "bytes": 117179,
+      "sha256": "77da751cdd1a7bd27eaaf1f5ee4ad5a43371be578d961c23fd3a88efcb35ca61"
+    },
+    {
+      "path": "registered_output/overlap_checks/overlap_CG.png",
+      "bytes": 106157,
+      "sha256": "82f5ea0ef66f54bc6e4b700037d40fd170b78a66828380346067ad66f29deaf5"
+    },
+    {
+      "path": "registered_output/overlap_checks/overlap_DE.png",
+      "bytes": 95670,
+      "sha256": "c9ca0867c5b6f17a12d507144b919460c2d813bba7b6106bd4c5ae55e9020c29"
+    },
+    {
+      "path": "registered_output/overlap_checks/overlap_DG.png",
+      "bytes": 73228,
+      "sha256": "1b0f47fdd72efa8ca00cd7283caeb727a7477a725a826e10c399196658bb705d"
+    },
+    {
+      "path": "registered_output/overlap_checks/overlap_EF.png",
+      "bytes": 73562,
+      "sha256": "6f85cbc4e1154db6a0ef2eec704ac49ab06d49f44e88959ce02ebd8013a9fc1a"
+    },
+    {
+      "path": "registered_output/overlap_checks/overlap_EG.png",
+      "bytes": 98793,
+      "sha256": "a5350ca75865f2a930c868618ddb92d44f6c20fa2d733ce4ea4f2a6153027ca8"
+    },
+    {
+      "path": "registered_output/overlap_checks/overlap_FG.png",
+      "bytes": 96650,
+      "sha256": "a93bf014ba8763aa0a14bd9a62124ca6b70f7eacf9875d82adf2ead6f1de42ed"
+    },
+    {
+      "path": "registered_output/overlap_checks/pair_scores.csv",
+      "bytes": 1212,
+      "sha256": "45cdb13ad2063a4ab67b1cbe16ac4a19a3edf383e0c8c84b1b51d75d34d53abd"
+    },
+    {
+      "path": "registration.py",
+      "bytes": 11795,
+      "sha256": "5846eeb1123843ede1c93a2361922baee54d5d0bd830372313a102f0101591b7"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 63,
+      "sha256": "d5cd466c5190fd3a9dd9509417fa6bc7b1586cd2ffa57e84dbcc0e364602f33b"
+    },
+    {
+      "path": "requirements_stars.txt",
+      "bytes": 54,
+      "sha256": "8000931619a57fcf97c79c939a8879d194d4d3582c411f6b73f4f3f676e4ba77"
+    },
+    {
+      "path": "run_figures.py",
+      "bytes": 1356,
+      "sha256": "e067229c1400c99924b77ba3f1daca2bd30ea7cea50b094094641578e82ceb25"
+    },
+    {
+      "path": "RUNNING_zh.md",
+      "bytes": 2417,
+      "sha256": "8fa771d0ee43b0c0ea7d358b0f974d022e1e204ddd5d40da022918f8de2562a3"
+    },
+    {
+      "path": "Segment.py",
+      "bytes": 3449,
+      "sha256": "76922332da577c18a3a7bf8ddc574e8820aca634ca36874668e836471cba1b8e"
+    },
+    {
+      "path": "SUBMISSION_CHECKLIST.md",
+      "bytes": 4221,
+      "sha256": "53733f34ac4ccba304afa634aa085454b5aa8d64fbddd475146d86a2526dca86"
+    },
+    {
+      "path": "test_registration.py",
+      "bytes": 2943,
+      "sha256": "2fca992ca63ea844028a801df205e1a107542bb088a18732858d8063b4c4c045"
+    },
+    {
+      "path": "validation_results.json",
+      "bytes": 876,
+      "sha256": "53616c003d457bb6bdc5777428a4f92ef5c15640d64253db07e887ef95ecd526"
+    },
+    {
+      "path": "zemax_images.py",
+      "bytes": 2443,
+      "sha256": "bd8278293dd79020fbf545fe9028b79d04b01b3b5137aa90f8cac78c6318a3af"
+    }
+  ]
+}

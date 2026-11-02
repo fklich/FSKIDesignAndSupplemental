@@ -1,0 +1,72 @@
+{
+  "method": "Circular hard masks with opaque pasting at nominal positions; no image registration or feather blending",
+  "paste_order": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+  ],
+  "same_dataset_as": "registered_output/manifest.json",
+  "artificial_perturbations": false,
+  "placements": {
+    "A": {
+      "left": 490,
+      "top": 14,
+      "center": [
+        816.0,
+        339.1428571428571
+      ]
+    },
+    "B": {
+      "left": 974,
+      "top": 293,
+      "center": [
+        1299.9844828006749,
+        618.5714285714286
+      ]
+    },
+    "C": {
+      "left": 974,
+      "top": 852,
+      "center": [
+        1299.9844828006749,
+        1177.4285714285716
+      ]
+    },
+    "D": {
+      "left": 490,
+      "top": 1131,
+      "center": [
+        816.0,
+        1456.857142857143
+      ]
+    },
+    "E": {
+      "left": 7,
+      "top": 852,
+      "center": [
+        332.01551719932513,
+        1177.4285714285716
+      ]
+    },
+    "F": {
+      "left": 7,
+      "top": 293,
+      "center": [
+        332.01551719932513,
+        618.5714285714286
+      ]
+    },
+    "G": {
+      "left": 490,
+      "top": 572,
+      "center": [
+        816.0,
+        898.0
+      ]
+    }
+  }
+}

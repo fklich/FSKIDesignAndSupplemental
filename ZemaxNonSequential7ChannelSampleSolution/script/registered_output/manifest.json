@@ -1,0 +1,506 @@
+{
+  "method": "Coarse overlap search, dense ECC affine, NCC acceptance gates and robust global affine registration",
+  "reference_channel": "G",
+  "registration_size": 652,
+  "minimum_pair_ncc": 0.45,
+  "input_kind": "framed",
+  "content_check": "Check whether the files contain Source Bitmap or Simulated Image. This program does not classify export content automatically.",
+  "channels": {
+    "A": {
+      "source": "E:\\L\\\u5927\u56db\\Fiverr\\05 7pathTelescope02\\NONSEQ\\ImageSimulationA.jpg",
+      "crop_box": [
+        135,
+        18,
+        453,
+        335
+      ],
+      "orientation": "identity",
+      "nominal_center_deg": [
+        0,
+        3.0
+      ],
+      "image_to_mosaic": [
+        [
+          1.0014270058860044,
+          0.00023059572510075732,
+          489.9298352943299
+        ],
+        [
+          -0.0017580918665294877,
+          1.0061526819353674,
+          9.840443280168301
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "B": {
+      "source": "E:\\L\\\u5927\u56db\\Fiverr\\05 7pathTelescope02\\NONSEQ\\ImageSimulationB.jpg",
+      "crop_box": [
+        135,
+        18,
+        453,
+        335
+      ],
+      "orientation": "identity",
+      "nominal_center_deg": [
+        2.598076211353316,
+        1.5
+      ],
+      "image_to_mosaic": [
+        [
+          0.9983927804874357,
+          -0.00016589002939679934,
+          973.5601163616645
+        ],
+        [
+          -0.0025768115710210785,
+          1.005727200691476,
+          290.74777452404214
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "C": {
+      "source": "E:\\L\\\u5927\u56db\\Fiverr\\05 7pathTelescope02\\NONSEQ\\ImageSimulationC.jpg",
+      "crop_box": [
+        135,
+        18,
+        453,
+        335
+      ],
+      "orientation": "identity",
+      "nominal_center_deg": [
+        2.598076211353316,
+        -1.5
+      ],
+      "image_to_mosaic": [
+        [
+          0.9985265136596414,
+          0.002930155125029166,
+          973.2699737297086
+        ],
+        [
+          -0.01241999649919404,
+          1.0099795712217734,
+          855.4554520384215
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "D": {
+      "source": "E:\\L\\\u5927\u56db\\Fiverr\\05 7pathTelescope02\\NONSEQ\\ImageSimulationD.jpg",
+      "crop_box": [
+        135,
+        18,
+        452,
+        335
+      ],
+      "orientation": "identity",
+      "nominal_center_deg": [
+        0,
+        -3.0
+      ],
+      "image_to_mosaic": [
+        [
+          0.9939351231998144,
+          -0.0033554244331053234,
+          491.6192243102615
+        ],
+        [
+          0.0006110161229013657,
+          0.9887094398286405,
+          1132.1819630330253
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "E": {
+      "source": "E:\\L\\\u5927\u56db\\Fiverr\\05 7pathTelescope02\\NONSEQ\\ImageSimulationE.jpg",
+      "crop_box": [
+        135,
+        18,
+        453,
+        335
+      ],
+      "orientation": "identity",
+      "nominal_center_deg": [
+        -2.598076211353316,
+        -1.5
+      ],
+      "image_to_mosaic": [
+        [
+          0.9990550272523144,
+          -0.0010452409782343067,
+          8.72000894873554
+        ],
+        [
+          0.015687330930835068,
+          0.9927686660798277,
+          844.2626301201842
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "F": {
+      "source": "E:\\L\\\u5927\u56db\\Fiverr\\05 7pathTelescope02\\NONSEQ\\ImageSimulationF.jpg",
+      "crop_box": [
+        135,
+        18,
+        452,
+        335
+      ],
+      "orientation": "identity",
+      "nominal_center_deg": [
+        -2.598076211353316,
+        1.5
+      ],
+      "image_to_mosaic": [
+        [
+          0.9940837489649907,
+          0.001049221851306901,
+          8.740500676753754
+        ],
+        [
+          0.012578574392798657,
+          1.0026682445982924,
+          285.13916098701475
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "G": {
+      "source": "E:\\L\\\u5927\u56db\\Fiverr\\05 7pathTelescope02\\NONSEQ\\ImageSimulationG.jpg",
+      "crop_box": [
+        135,
+        18,
+        453,
+        335
+      ],
+      "orientation": "identity",
+      "nominal_center_deg": [
+        0,
+        0
+      ],
+      "image_to_mosaic": [
+        [
+          1.0,
+          0.0,
+          490.5
+        ],
+        [
+          0.0,
+          1.0,
+          572.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "ncc_before": 0.4281046439131626,
+      "accepted": true,
+      "method": "coarse overlap search and ECC affine",
+      "ncc_after": 0.5474591339387426,
+      "overlap_pixels": 9707,
+      "matrix_a_to_b": [
+        [
+          1.0065011028782298,
+          0.00875097457558342,
+          -490.21363996336197
+        ],
+        [
+          -0.012363535407030491,
+          0.9892432496102954,
+          -267.9286106735871
+        ]
+      ],
+      "a": "A",
+      "b": "B",
+      "global_ncc": 0.5458452775839447,
+      "global_rms_px": 0.45620103202139006
+    },
+    {
+      "ncc_before": 0.5961454833276516,
+      "accepted": true,
+      "method": "coarse overlap search and ECC affine",
+      "ncc_after": 0.7593436458224145,
+      "overlap_pixels": 9428,
+      "matrix_a_to_b": [
+        [
+          1.0307146675392278,
+          -0.01428811993725317,
+          488.69056765163424
+        ],
+        [
+          -0.05116364133279127,
+          1.0230090754623553,
+          -286.7230660942326
+        ]
+      ],
+      "a": "A",
+      "b": "F",
+      "global_ncc": 0.7171628031086337,
+      "global_rms_px": 0.632563832742663
+    },
+    {
+      "ncc_before": 0.9192745754877457,
+      "accepted": true,
+      "method": "coarse overlap search and ECC affine",
+      "ncc_after": 0.9776760186227578,
+      "overlap_pixels": 9421,
+      "matrix_a_to_b": [
+        [
+          1.0002522524184623,
+          0.0008166488875223677,
+          -0.5847491652900454
+        ],
+        [
+          -0.000726588804886051,
+          0.9975997738263619,
+          -557.7764362085293
+        ]
+      ],
+      "a": "A",
+      "b": "G",
+      "global_ncc": 0.9734668855191407,
+      "global_rms_px": 0.1578956730711261
+    },
+    {
+      "ncc_before": 0.698094447571499,
+      "accepted": true,
+      "method": "coarse overlap search and ECC affine",
+      "ncc_after": 0.7687361969978619,
+      "overlap_pixels": 9690,
+      "matrix_a_to_b": [
+        [
+          0.9998374761362955,
+          -0.0030881472348763934,
+          1.931249965733263
+        ],
+        [
+          0.009743926177199517,
+          0.9957516711925771,
+          -559.1040724853221
+        ]
+      ],
+      "a": "B",
+      "b": "C",
+      "global_ncc": 0.7687361969978619,
+      "global_rms_px": 3.296863493437183e-11
+    },
+    {
+      "ncc_before": 0.41339485274016874,
+      "accepted": true,
+      "method": "coarse overlap search and ECC affine",
+      "ncc_after": 0.4903637560392924,
+      "overlap_pixels": 9562,
+      "matrix_a_to_b": [
+        [
+          0.9772021256275245,
+          0.00917261502308825,
+          480.5674443969011
+        ],
+        [
+          -0.004823227495923617,
+          1.0092412215561979,
+          -283.2631314361928
+        ]
+      ],
+      "a": "B",
+      "b": "G",
+      "global_ncc": 0.48563264855638305,
+      "global_rms_px": 0.41453958965925547
+    },
+    {
+      "ncc_before": 0.2885843630305848,
+      "accepted": false,
+      "method": "coarse overlap search and ECC affine",
+      "ncc_after": 0.32353352916394157,
+      "overlap_pixels": 9250,
+      "matrix_a_to_b": [
+        [
+          1.0038053561174598,
+          0.00019950059297627634,
+          484.11061233769874
+        ],
+        [
+          0.018052461372110088,
+          0.9951807451095941,
+          -279.34460862893013
+        ]
+      ],
+      "reason": "Insufficient overlap similarity or support",
+      "a": "C",
+      "b": "D"
+    },
+    {
+      "ncc_before": 0.30576843276389104,
+      "accepted": false,
+      "method": "coarse overlap search and ECC affine",
+      "ncc_after": 0.4069499697446425,
+      "overlap_pixels": 9694,
+      "matrix_a_to_b": [
+        [
+          1.0116687388578602,
+          0.0006794871672731653,
+          481.7227601950172
+        ],
+        [
+          -0.057043118040740165,
+          0.9788476163106699,
+          288.02616463108495
+        ]
+      ],
+      "reason": "Insufficient overlap similarity or support",
+      "a": "C",
+      "b": "G"
+    },
+    {
+      "ncc_before": 0.42607781571378567,
+      "accepted": true,
+      "method": "coarse overlap search and ECC affine",
+      "ncc_after": 0.6205909863913753,
+      "overlap_pixels": 9764,
+      "matrix_a_to_b": [
+        [
+          1.0073309721156611,
+          0.0007114120881309568,
+          482.0842134637532
+        ],
+        [
+          0.03179759249796769,
+          1.0213563536917598,
+          273.63134061345306
+        ]
+      ],
+      "a": "D",
+      "b": "E",
+      "global_ncc": 0.6100563332593469,
+      "global_rms_px": 0.7668107958255191
+    },
+    {
+      "ncc_before": 0.7324357846640945,
+      "accepted": true,
+      "method": "coarse overlap search and ECC affine",
+      "ncc_after": 0.9628544966462397,
+      "overlap_pixels": 9432,
+      "matrix_a_to_b": [
+        [
+          0.9956852876457795,
+          -0.003959181271015766,
+          0.5108386810035603
+        ],
+        [
+          -0.0008833943418564675,
+          0.9956303358700349,
+          559.8780382375506
+        ]
+      ],
+      "a": "D",
+      "b": "G",
+      "global_ncc": 0.9595609241356959,
+      "global_rms_px": 0.15460024722575155
+    },
+    {
+      "ncc_before": 0.6048354957869468,
+      "accepted": true,
+      "method": "coarse overlap search and ECC affine",
+      "ncc_after": 0.710952868649728,
+      "overlap_pixels": 9652,
+      "matrix_a_to_b": [
+        [
+          1.0046772111794986,
+          -0.0014870170018069866,
+          -0.5385922664401044
+        ],
+        [
+          0.0024599763800044186,
+          0.9692120121108849,
+          558.734495467936
+        ]
+      ],
+      "a": "E",
+      "b": "F",
+      "global_ncc": 0.7095245469617143,
+      "global_rms_px": 0.300594208200859
+    },
+    {
+      "ncc_before": 0.43477564389845674,
+      "accepted": true,
+      "method": "coarse overlap search and ECC affine",
+      "ncc_after": 0.5123479502053615,
+      "overlap_pixels": 9889,
+      "matrix_a_to_b": [
+        [
+          1.0305488376232474,
+          -0.010338581415626304,
+          -497.89532391765266
+        ],
+        [
+          0.026820884853927467,
+          0.9842182801087598,
+          267.1196962529524
+        ]
+      ],
+      "a": "E",
+      "b": "G",
+      "global_ncc": 0.5156070393101955,
+      "global_rms_px": 0.6066949110374671
+    },
+    {
+      "ncc_before": 0.5883828188194112,
+      "accepted": true,
+      "method": "coarse overlap search and ECC affine",
+      "ncc_after": 0.6517245033371446,
+      "overlap_pixels": 9396,
+      "matrix_a_to_b": [
+        [
+          1.0036968026174262,
+          0.004322817242707696,
+          -488.77846784903636
+        ],
+        [
+          0.020592854585731898,
+          1.0061247700672018,
+          -293.65906534883993
+        ]
+      ],
+      "a": "F",
+      "b": "G",
+      "global_ncc": 0.6280044763737785,
+      "global_rms_px": 0.22602367524850903
+    }
+  ],
+  "covered_pixels": 2059662,
+  "overlap_pixels": 226937,
+  "limitations": "Locally affine model initialized by approximate field geometry. No absolute celestial WCS, lens-distortion correction, super-resolution or radiometric calibration."
+}
